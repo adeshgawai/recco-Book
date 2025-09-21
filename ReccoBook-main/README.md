@@ -43,7 +43,43 @@ book_recommender/
 ├── requirements.txt           # Dependencies
 └── README.md                  # Project documentation
 ```
+⚙️ Setup and Installation
+Prerequisites
 
+Python 3.8+
+
+Flask installed
+
+Installation Steps
+
+1. Clone the repository
+```
+git clone https://github.com/your-username/book_recommender.git
+cd book_recommender
+```
+2. Create a virtual environment (recommended):
+ ```
+python -m venv venv
+source venv/bin/activate    # On Windows: venv\Scripts\activate
+```
+3. Install dependencies:
+  ```
+pip install -r requirements.txt
+```
+4. Make sure pickle files exist in the project root:
+   popular.pkl
+   pt.pkl
+   books_dict.pkl
+   similarity_scores.pkl
+
+🛠️ Technologies Used
+Backend: Flask
+Frontend: HTML, CSS (in templates/ and static/)
+Data Handling: Pandas, NumPy
+Serialization: Pickle
+Recommendation Logic: Collaborative filtering with similarity scores
+
+UI interface:
 ![Picture1](https://github.com/codingking123/ReccoBook/assets/75785111/3c8b574f-4541-47f5-bc9d-a457caf6f789)
 
 ![Picture2](https://github.com/codingking123/ReccoBook/assets/75785111/d43c0b13-a6cd-4f2e-ba18-d7e27f59bdd4)
