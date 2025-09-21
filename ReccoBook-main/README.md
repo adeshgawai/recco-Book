@@ -67,17 +67,17 @@ source venv/bin/activate    # On Windows: venv\Scripts\activate
 pip install -r requirements.txt
 ```
 4. Make sure pickle files exist in the project root:
-   -popular.pkl
-   -pt.pkl
-   -books_dict.pkl
-   -similarity_scores.pkl
+   - popular.pkl
+   - pt.pkl
+   - books_dict.pkl
+   - similarity_scores.pkl
 
 🛠️ Technologies Used
--Backend: Flask
--Frontend: HTML, CSS (in templates/ and static/)
--Data Handling: Pandas, NumPy
--Serialization: Pickle
--Recommendation Logic: Collaborative filtering with similarity scores
+- Backend: Flask
+- Frontend: HTML, CSS (in templates/ and static/)
+- Data Handling: Pandas, NumPy
+- Serialization: Pickle
+- Recommendation Logic: Collaborative filtering with similarity scores
 
 UI interface:
 ![Picture1](https://github.com/codingking123/ReccoBook/assets/75785111/3c8b574f-4541-47f5-bc9d-a457caf6f789)
